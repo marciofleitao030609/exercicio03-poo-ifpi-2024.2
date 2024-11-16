@@ -1,0 +1,11 @@
+function formatarNumero(lista: number[]): string {
+    let resultado: string[] = [];
+
+    lista.forEach((numero) => {
+        resultado.push(numero.toString());
+    });
+    return resultado.join("-");
+}
+
+const numeros = [3, 6, 9, 12, 15, 18]
+console.log(formatarNumero(numeros));
