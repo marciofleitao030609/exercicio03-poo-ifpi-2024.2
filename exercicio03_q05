@@ -1,0 +1,7 @@
+function exibir(...elemento: string[]): any {
+    elemento.forEach(elemento => console.log(elemento));
+}
+
+exibir('a', 'b');
+exibir('a', 'b', 'c');
+exibir('a', 'b', 'c', 'd');
