@@ -1,0 +1,7 @@
+function saudacao(nome: string, tratamento: string = "Sr") {
+    console.log(`Bem vindo(a) ${tratamento}. ${nome}`);
+}
+
+saudacao("Arabela", "Sra");
+saudacao("Márcio");
+saudacao("Catarina", "Sra");
